@@ -1,5 +1,13 @@
 import re
 import long_res as long
+logo = '''
+  ______                                            ____         ______                
+ .~      ~. |         |       .'.       `````|````` |    ~.     .~      ~.  `````|````` 
+|           |_________|     .''```.          |      |____.'_   |          |      |      
+|           |         |   .'       `.        |      |       ~. |          |      |      
+ `.______.' |         | .'           `.      |      |_______.'  `.______.'       |      
+                                                                                        
+'''
 def msg_prob(user_msg, recognised_word, single_res = False, required_words = []):
     msg_certainty = 0
     has_required_words = True
